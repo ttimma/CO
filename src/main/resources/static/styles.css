@@ -1,0 +1,146 @@
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: Arial, sans-serif; 
+    font-size: 2.2rem;
+    color: #200a58;
+    margin-left: 0;
+}
+
+.gradient-bg {
+  background-color: #ff0000;
+  background: linear-gradient(to right, #ff0000, #2B2731);
+}
+
+.main-heading{
+    font-family: Arial, sans-serif; 
+    font-size: 2rem; 
+    color: #ffffff;
+}
+
+.flight-filtering .form-label {
+    font-family: Arial, sans-serif; 
+    font-size: 1rem; 
+    color: #ffffff;
+}
+
+#apply-filters {
+    font-family: Arial, sans-serif; 
+    color: #200a58;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.seat-map-wrapper {
+    /* Override or reset Bootstrap rules here if needed */
+    position: relative; /* if your seat elements are absolutely positioned */
+    padding: 0; 
+    margin: 0;
+  }
+
+#seat-map {
+    display: inline-block;
+    background-image: url('images/SAS_Airlines_Airbus_A320.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative; /* For absolute positioning of seats */
+    width: 300px; /* Adjust as needed */
+    height: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    box-sizing: content-box !important;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.plane-seat {
+    width: 17px;
+    height: 20px; 
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 12px;
+    background: linear-gradient(to bottom, #e0e0e0, #d0d0d0);
+    border: 1px solid #c0c0c0;
+    position: absolute; /* Position seats over the image */
+    padding: 0;
+}
+
+.available {
+    background: linear-gradient(to bottom, #a8e063, #56ab2f);
+    color: white;
+}
+
+.taken {
+    background: linear-gradient(to bottom, #ff6060, #d32f2f);
+    color: white;
+    cursor: not-allowed;
+}
+
+.aisle {
+    margin: 0 10px;
+}
+
+.recommended {
+    outline: 3px solid #FFD700; /* gold outline */
+    z-index: 2; /* make sure it appears on top if seats are layered */
+  }
+
+  .selected-seat {
+    outline: 3px solid #56ab2f; /* A distinct color for manual selection */
+    z-index: 2;
+  }
+  
+
+  #booking-summary {
+    font-family: Arial, sans-serif; 
+    font-size: 1rem; 
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .confirmation {
+    font-family: Arial, sans-serif; 
+    font-size: 1.5rem; 
+    color: #ffffff;
+  }
+
+  .seating-heading {
+    font-family: Arial, sans-serif; 
+    font-size: 1.5rem;
+    color: #200a58;
+  }
+
+  .select-flight {
+    background-color: #611E25;
+    color: #ffffff;
+    margin-top: 0;
+    border: 0;
+
+  }
+
+  .fare-option {
+    background-color: #611E25;
+    border: 0;
+  }
+
